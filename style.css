@@ -1,0 +1,215 @@
+*{
+    color: aliceblue;
+    margin: 0;
+    padding: 0; 
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(15, 15, 15); 
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+    position: relative;
+}
+
+.navbar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    padding:  20px;
+}
+
+.logo h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+}
+
+.menu_de_navegacao ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    display: block;
+}
+
+.texto {
+    position: absolute;
+    top: 120px; 
+    left: 50px;
+}
+
+.texto h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 45px;
+}
+
+.texto p{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.historia h1{
+    text-align: center;
+    margin: 30px;
+}
+
+.historia h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.conteudo-historia {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+}
+
+.tlou1 p{
+    margin-left: 30px;
+}
+
+.tlou1, .tlou2 {
+    width: 45%;
+    line-height:1.3;
+}
+
+.personagens h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.personagens h2{
+    text-align: center;
+}
+
+.personagens img{
+    width: 350px;
+    height: auto;
+    margin: 15px auto;
+    display: block;
+    border-radius: 20px;
+}
+
+.personagens-tlou1 img{
+    border-radius: 90px;
+}
+
+.personagens-tlou2{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.personagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personagem img{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.personagens-tlou1 h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.personagens-tlou2 h2{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.lista-personagens{
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+}
+
+.personagens-tlou1 h2{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center; 
+    margin-bottom: 25px; 
+}
+
+
+.curiosidades h1{
+    margin-bottom: 20px;
+}
+
+.curiosidades ul{
+    padding-left: 20px;
+    list-style-position: inside; 
+    text-align: center;
+}
+
+.curiosidades ul li{
+    margin-bottom: 10px;
+    text-align: center;       
+}
+
+
+.midia h1{
+    margin-top: 40px;
+}
+
+.bloco-de-imagens{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    justify-content:center;
+    height: 400px;
+}
+
+.bloco-de-imagens img{
+    border-radius: 20%;
+    width: 45%;
+    display: block;
+    margin: auto;
+}
+
+.trailer h1 {
+    margin: 30px ;
+}
+
+
+
+.trailer1 h2,.trailer2 h2 {
+    margin-bottom: 10px;
+}
+
+.trailer1 video,.trailer2 video {
+    width: 500px;
+    border-radius: 20px;
+    display: block;
+}
+.trailer_videos {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+   
+}
+
+footer{
+    text-align: center;
+    background-color:black;
+    padding: 15px;
+    margin-top: 20px;
+}
